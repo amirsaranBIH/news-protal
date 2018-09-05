@@ -1,0 +1,53 @@
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header__logo {
+  margin: 1em 0;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    font-size: .75rem;
+    color: white;
+
+    p, time {
+      padding: .25em .35em;
+    }
+
+    p {
+      margin: 0;
+      background-color: black;
+      word-spacing: 1em;
+      margin-right: .25em;
+    }
+
+    time {
+      background-color: $red;
+      padding-left: 6em;
+    }
+  }
+
+  &__bottom {
+    p {
+      font-size: 2.5em;
+      font-weight: 300;
+
+      span {
+        color: $red;
+      }
+    }
+  }
+}
+
+.menu-icon img {
+  width: 40px;
+}
+
+.main-header__links,
+.main-header__social-media,
+.main-header__search {
+  display: none;
+}

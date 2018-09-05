@@ -1,0 +1,32 @@
+{
+  "name": "news-protal",
+  "version": "1.0.0",
+  "description": "News Protal is not a real website, I just made it to practice HTML and CSS.",
+  "main": "app.js",
+  "scripts": {
+    "sass": "node-sass public/stylesheets/scss/style.scss public/stylesheets/style.css --output-style compressed",
+    "sass-watch": "node-sass -w public/stylesheets/scss/style.scss public/stylesheets/style.css --output-style expanded",
+    "start": "serve ./",
+    "dev": "npm run start | npm run sass-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirsaranBIH/news-protal.git"
+  },
+  "keywords": [
+    "news",
+    "protal"
+  ],
+  "author": "Amir Šaran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirsaranBIH/news-protal/issues"
+  },
+  "homepage": "https://github.com/amirsaranBIH/news-protal#readme",
+  "dependencies": {
+    "serve": "^10.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

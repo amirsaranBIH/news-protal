@@ -20,14 +20,17 @@
     <meta property="og:image:alt" content="">
     <meta property="og:type" content="website">
     <meta property="og:url" content="">
+
+    <link rel="stylesheet" href="public/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
   </head>
 
   <body>
-    <header class="main-header">
+    <header class="main-header wrapper">
       <section class="main-header__section">
         <div class="main-header__logo">
           <div class="main-header__logo__top">
-            <p>The</p>
+            <p>T H E</p>
             <time datetime="2017-11-23">23 November 2017</time>
           </div>
 
@@ -47,6 +50,9 @@
         </section>
 
         <section class="main-header__nav">
+          <span class="menu-icon">
+            <img src="public/images/hamburger-menu-icon.png" alt="hamburger-menu-icon">
+          </span>
           <nav class="main-header__links">
             <ul>
               <li><a class="main-header__link" href="#">Home</a></li>
@@ -59,18 +65,18 @@
             </ul>
           </nav>
 
-          <section class="main-header__nav__search">
+          <section class="main-header__search">
             <input type="search" name="search" hidden>
-            <img src="images/search-icon.png" alt="search-icon">
+            <img src="public/images/search-icon.png" alt="search-icon">
           </section>
         </section>
       </section>
     </header>
 
-    <main class="main-content">
+    <main class="main-content wrapper">
       <article class="articles">
         <article class="article article--featured">
-          <img src="images/featured.jpg" alt="featured">
+          <img src="public/images/featured.jpg" alt="featured">
 
           <section class="article__preview">
             <h1>Le Pen slams 'banking fatwa' against National Front after accounts closed</h1>
@@ -81,7 +87,7 @@
         </article>
 
         <article class="article">
-          <img src="images/article-1.jpg" alt="article-1">
+          <img src="public/images/article-1.jpg" alt="article-1">
 
           <section class="article__preview">
             <h2>Qatar's foreign minister accuses Saudi Arabia of sparking humanitarian crisis</h2>
@@ -92,7 +98,7 @@
         </article>
 
         <article class="article">
-          <img src="images/article-2.jpg" alt="article-2">
+          <img src="public/images/article-2.jpg" alt="article-2">
 
           <section class="article__preview">
             <h2>David Cassidy, 'The Partridge Family' teen heartthrob, dies at 67</h2>
@@ -103,7 +109,7 @@
         </article>
 
         <article class="article">
-          <img src="images/article-3.jpg" alt="article-3">
+          <img src="public/images/article-3.jpg" alt="article-3">
 
           <section class="article__preview">
             <h2>US condemns 'ethnic cleansing' of Rohingya in Myanmar</h2>
@@ -114,7 +120,7 @@
         </article>
 
         <article class="article">
-          <img src="images/article-4.jpg" alt="article-4">
+          <img src="public/images/article-4.jpg" alt="article-4">
 
           <section class="article__preview">
             <h2>Angela Merkel's German coalition crisis greatly exaggerated</h2>
@@ -130,7 +136,7 @@
           <ul>
             <li class="currency currency--dollar">
               <div class="currency__which">
-                <img class="currency__flag" src="images/flags/flag-usa.png" alt="flag-usa">
+                <img class="currency__flag" src="public/images/flags/flag-usa.png" alt="flag-usa">
                 <span class="currency__name">Dollar</span>
               </div>
 
@@ -138,7 +144,7 @@
             </li>
             <li class="currency currency--neg">
               <div class="currency__which">
-                <img class="currency__flag" src="images/flags/flag-singapore.png" alt="flag-singapore">
+                <img class="currency__flag" src="public/images/flags/flag-singapore.png" alt="flag-singapore">
                 <span class="currency__name">Singapore</span>
               </div>
 
@@ -147,7 +153,7 @@
             </li>
             <li class="currency currency--pos">
               <div class="currency__which">
-                <img class="currency__flag" src="images/flags/flag-malaysia.png" alt="flag-malaysia">
+                <img class="currency__flag" src="public/images/flags/flag-malaysia.png" alt="flag-malaysia">
                 <span class="currency__name">Malaysia</span>
               </div>
 
@@ -156,7 +162,7 @@
             </li>
             <li class="currency currency--neg">
               <div class="currency__which">
-                <img class="currency__flag" src="images/flags/flag-indonesia.png" alt="flag-indonesia">
+                <img class="currency__flag" src="public/images/flags/flag-indonesia.png" alt="flag-indonesia">
                 <span class="currency__name">Indonesia</span>
               </div>
 
@@ -165,7 +171,7 @@
             </li>
             <li class="currency currency--pos">
               <div class="currency__which">
-                <img class="currency__flag" src="images/flags/flag-china.png" alt="flag-china">
+                <img class="currency__flag" src="public/images/flags/flag-china.png" alt="flag-china">
                 <span class="currency__name">Yuan</span>
               </div>
 
@@ -174,7 +180,7 @@
             </li>
             <li class="currency currency--neg">
               <div class="currency__which">
-                <img class="currency__flag" src="images/flags/flag-european-union.png" alt="flag-european-union">
+                <img class="currency__flag" src="public/images/flags/flag-european-union.png" alt="flag-european-union">
                 <span class="currency__name">Euro</span>
               </div>
 
@@ -189,7 +195,7 @@
 
           <article class="sidebar__articles">
             <article class="sidebar__article">
-              <img src="images/sidebar-1.jpg" alt="sidebar-1">
+              <img src="public/images/sidebar-1.jpg" alt="sidebar-1">
 
               <section class="sidebar__article__info">
                 <time datetime="2017-01-15">15th Jan</time>
@@ -197,7 +203,7 @@
               </section>
             </article>
             <article class="sidebar__article">
-              <img src="images/sidebar-2.jpg" alt="sidebar-2">
+              <img src="public/images/sidebar-2.jpg" alt="sidebar-2">
 
               <section class="sidebar__article__info">
                 <time datetime="2017-01-15">15th Jan</time>
@@ -205,7 +211,7 @@
               </section>
             </article>
             <article class="sidebar__article">
-              <img src="images/sidebar-3.jpg" alt="sidebar-3">
+              <img src="public/images/sidebar-3.jpg" alt="sidebar-3">
 
               <section class="sidebar__article__info">
                 <time datetime="2017-01-15">15th Jan</time>
@@ -213,6 +219,10 @@
               </section>
             </article>
           </article>
+
+          <footer class="sidebar__footer">
+            <a href="#">Read More News</a>
+          </footer>
         </section>
 
         <section class="sidebar__section">
@@ -220,7 +230,7 @@
 
           <article class="sidebar__articles">
             <article class="sidebar__article">
-              <img src="images/sidebar-4.jpg" alt="sidebar-4">
+              <img src="public/images/sidebar-4.jpg" alt="sidebar-4">
 
               <section class="sidebar__article__info">
                 <time datetime="2017-01-15">15th Jan</time>
@@ -228,7 +238,7 @@
               </section>
             </article>
             <article class="sidebar__article">
-              <img src="images/sidebar-5.jpg" alt="sidebar-5">
+              <img src="public/images/sidebar-5.jpg" alt="sidebar-5">
 
               <section class="sidebar__article__info">
                 <time datetime="2017-01-15">15th Jan</time>
@@ -236,7 +246,7 @@
               </section>
             </article>
             <article class="sidebar__article">
-              <img src="images/sidebar-6.jpg" alt="sidebar-6">
+              <img src="public/images/sidebar-6.jpg" alt="sidebar-6">
 
               <section class="sidebar__article__info">
                 <time datetime="2017-01-15">15th Jan</time>
@@ -244,13 +254,19 @@
               </section>
             </article>
           </article>
+
+          <footer class="sidebar__footer">
+            <a href="#">Read More News</a>
+          </footer>
         </section>
       </aside>
 
       <section class="categories">
-        <section class="category">
-          <img src="images/tech.jpg" alt="tech">
-          <span class="category__tag">Tech</span>
+        <section class="category category--tech">
+          <div class="category__image">
+            <img src="public/images/tech.jpg" alt="tech">
+            <span class="category__tag category__tag--tech">Tech</span>
+          </div>
 
           <div class="category__info">
             <ul>
@@ -262,9 +278,11 @@
             </ul>
           </div>
         </section>
-        <section class="category">
-          <img src="images/health.jpg" alt="health">
-          <span class="category__tag">Health</span>
+        <section class="category category--health">
+          <div class="category__image">
+            <img src="public/images/health.jpg" alt="health">
+            <span class="category__tag category__tag--health">Health</span>
+          </div>
 
           <div class="category__info">
             <ul>
@@ -277,8 +295,10 @@
           </div>
         </section>
         <section class="category">
-          <img src="images/business.jpg" alt="business">
-          <span class="category__tag">Business</span>
+          <div class="category__image">
+            <img src="public/images/business.jpg" alt="business">
+            <span class="category__tag category__tag--business">Business</span>
+          </div>
 
           <div class="category__info">
             <ul>
@@ -293,32 +313,36 @@
       </section>
 
       <section class="ads">
-        <img src="images/ad-1.jpg" alt="ad-1">
-        <img src="images/ad-2.jpg" alt="ad-2">
+        <img src="public/images/ad-1.jpg" alt="ad-1">
+        <img src="public/images/ad-2.jpg" alt="ad-2">
       </section>
     </main>
 
     <nav class="footer-nav">
-      <ul>
-        <li><a href="#">Terms Of Use</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Cookies</a></li>
-        <li><a href="#">Accesibility Help</a></li>
-        <li><a href="#">Advertise With Us</a></li>
-      </ul>
+      <div class="wrapper">
+        <ul>
+          <li><a href="#">Terms Of Use</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Accesibility Help</a></li>
+          <li><a href="#">Advertise With Us</a></li>
+        </ul>
+      </div>
     </nav>
 
     <footer class="main-footer">
-      <p>Copyright &copy; 2017 The News Portal. We are not responsible for the content of external sites. Read about our approach to external linking.</p>
+      <div class="wrapper">
+        <p>Copyright &copy; 2017 The News Portal. We are not responsible for the content of external sites. Read about our approach to external linking.</p>
 
-      <section class="footer-logos">
-        <img src="images/footer-logos/footer-logo-cnbc.png" alt="footer-logo-cnbc">
-        <img src="images/footer-logos/footer-logo-msnbc-upper.png" alt="footer-logo-msnbc-upper">
-        <img src="images/footer-logos/footer-logo-nbcnews.png" alt="footer-logo-nbcnews">
-        <img src="images/footer-logos/footer-logo-today.png" alt="footer-logo-today">
-        <img src="images/footer-logos/footer-logo-xfinity.png" alt="footer-logo-xfinity">
-      </section>
+        <section class="main-footer__logos">
+          <img src="public/images/footer-logos/footer-logo-cnbc.png" alt="footer-logo-cnbc">
+          <img src="public/images/footer-logos/footer-logo-msnbc-upper.png" alt="footer-logo-msnbc-upper">
+          <img src="public/images/footer-logos/footer-logo-nbcnews.png" alt="footer-logo-nbcnews">
+          <img src="public/images/footer-logos/footer-logo-today.png" alt="footer-logo-today">
+          <img src="public/images/footer-logos/footer-logo-xfinity.png" alt="footer-logo-xfinity">
+        </section>
+      </div>
     </footer>
   </body>
 </html>
