@@ -56,6 +56,31 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.main-header__links {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #F22929;
+  text-align: center;
+  transform: scale(0);
+  transform-origin: top right;
+  transition: transform .3s ease-out .2s;
+}
+
+.main-header__link {
+  display: block;
+  color: white;
+  padding: 1.25em 0;
+}
+
+.main-header__link:hover {
+  background-color: white;
+  color: #F22929;
 }
 
 .main-header__logo {
@@ -94,11 +119,14 @@ table {
   color: #F22929;
 }
 
-.menu-icon img {
+.menu-icon {
   width: 40px;
 }
 
-.main-header__links,
+.menu-icon:hover + .main-header__links {
+  transform: scale(1);
+}
+
 .main-header__social-media,
 .main-header__search {
   display: none;
