@@ -14,10 +14,18 @@
   &__tag {
     position: absolute;
     top: -3.5em;
-    right: 1em;
+    left: 1em;
     background-color: white;
     padding: .5em 1em;
     font-weight: 700;
+    color: black;
+  }
+
+  &--featured {
+    .article__tag {
+      right: 1em;
+      left: auto;
+    }
   }
 
   h1, h2, h3, h4 {
